@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "DB Local",
+            "database": "BBM",
+            "username": "postgres",
+            "password": "riandi123",
+            "connectionTimeout": 30
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "postgresql-42.7.4.jar"
+    ]
+}
